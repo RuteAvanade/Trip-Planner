@@ -1,7 +1,7 @@
-# taco-fleet
+# Trip Planner
 
-This repo contains an example Flux CD configuration for AKS. The infrastructure folder adds the Bitnami Helm repository.  
+This repository includes a sample Flux CD setup for AKS. The infrastructure folder integrates the Bitnami Helm repository.
 
-The dotnet folder has a configuration deploying a sample ASP Net app using the App Gateway ingress controller.
+The dotnet folder contains a configuration for deploying a sample ASP.NET application using the App Gateway ingress controller.
 
-To use this with an AKS cluster, first install the Flux extension, then add a Flux configuration with two Kustomizations. The first can point at the infrastructure directory and the second should point at the dotnet directory.
+To use this with an AKS cluster, start by installing the Flux extension. Then, create a Flux configuration with two Kustomizations: one pointing to the infrastructure directory and the other to the dotnet directory.
